@@ -1,0 +1,107 @@
+/* pages/holdList/holdList.wxss */
+.page-header{
+    height: 160px;
+	background-image: linear-gradient(to bottom, #fd412a, #ff6350);
+    text-align: center;
+}
+.page-header .hd{
+    padding-top: 20px;
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+}
+.page-header .add-hold{
+    padding-top: 20px;
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+}
+.list{
+    margin: 0 12px 20px 12px ;
+}
+.list .list-item{
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 4px;
+    text-align: center;
+}
+.sub-hd{
+    padding-top: 20px;
+    font-size: 12px;
+    color: #666;
+}
+.sub-hold,.sub-hold-minus{
+    padding-top: 20px;
+    font-size: 32px;
+    color: #ff6350;
+}
+.sub-hold-minus{
+    color: #1bd05a;
+}
+.hold-info{
+    display: flex;
+    padding: 20px 12px 0 0px;
+    align-items: center;
+    flex-direction: row;
+    font-size: 22rpx;
+    color: #999;
+}
+.hold-info text{
+    padding-left: 12px;
+    
+}
+.flex_1{
+    flex: 1;
+}
+.hold-info .ff6350{
+    font-style: normal;
+    color: #ff6350;
+    padding: 0;
+}
+.btn-block{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #e0e0e0;
+}
+.btn-block .btn{
+    margin: 0;
+    height: 40px;
+    line-height: 40px;
+    width: 50%;
+    flex: 1;
+    color: #333;
+    font-size: 13px;
+}
+.border-r{
+    border-right: 1px solid #e0e0e0;
+}
+.empty{
+    padding-bottom: 40rpx;
+}
+.empty .empty-hd{
+    font-size: 32rpx;
+    color: #666;
+    height:100rpx;
+    text-align: center;
+    line-height: 100rpx;
+    border-bottom: 1rpx solid #eee;
+}
+.empty-con{
+    color: #999;
+    font-size: 24rpx;
+    text-align: center;
+    padding: 40rpx 0;
+}
+.btn-ok{
+    margin: 30rpx 24rpx;
+    background: #fc412b;
+    border-radius: 10rpx;
+    color: #fff;
+    height: 96rpx;
+    font-size: 28rpx;
+    line-height: 96rpx;
+    box-shadow: 0 5px 5px 0 rgba(255, 98, 80, 0.2);
+}

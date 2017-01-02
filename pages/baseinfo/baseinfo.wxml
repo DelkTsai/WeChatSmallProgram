@@ -1,0 +1,25 @@
+<view class="container">
+<form bindsubmit="formSubmit" >
+  <view class="avatar-box" bindtap="setPhotoInfo">
+      <text class="title">头像</text>
+        <view class="infotext">
+          <image wx:if="{{imgUrl!=null}}" class="userinfo-avatar" src="{{imgUrl}}" background-size="cover"></image>
+          <image wx:else class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+         <image class="arrow-r" src="../../image/arrow-r.png"></image>
+        </view>
+  </view>
+  <view class="line">
+    <view class="white"></view>
+  </view>
+  <view class="item-box">
+      <text class="title">昵称</text>
+      <view class="name">
+        超级无敌
+         <image class="arrow-r" src="../../image/arrow-r.png"></image>
+     </view>
+  </view>
+   <view>
+    <button bindtap="bindViewTap" class="btn btn-default red" form-type="submit">保存</button>
+  </view>
+</form>
+</view>

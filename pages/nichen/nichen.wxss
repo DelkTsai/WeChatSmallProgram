@@ -1,0 +1,44 @@
+.container {
+  padding: 0;
+  align-items:inherit;
+} 
+.yzm-block{
+  display: flex;
+  overflow: hidden;
+  padding: 0 24px;
+  height: 48px;
+  background: #fff;
+  margin-top: 10px;
+   align-items: center;
+    flex-direction: row;
+}
+.yzm{
+  flex: 1;
+  font-size: 28rpx;
+}
+.cancel{
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+}
+.btn-send{
+  flex: 1;
+  text-overflow:clip;
+  font-size: 14px;
+  text-align: right;
+}
+.btn{
+  margin: 20px 24px;
+}
+.btn-default{
+  border-radius: 10px;
+  color: #fff;
+  height: 48px;
+  line-height: 48px;
+  font-size: 15px;
+  justify-content:center;
+  align-items:center;
+}
+.red{
+  background-color: rgba(252, 65, 43, 0.5);
+}

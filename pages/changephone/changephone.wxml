@@ -1,0 +1,16 @@
+<view class="container">
+<form bindsubmit="formSubmit" >
+  <view class="label-phone">新手机号</view>
+  <input class="input-phone" name="tel" placeholder="输入有效手机号" type="number" />
+  <view class="yzm-block">
+    <input class="yzm" name = "yzm" placeholder="请输入验证码" />
+    <text class="btn-send" bindtap="modalTap">重新获取</text>
+  </view>
+  <view>
+    <button bindtap="bindViewTap" class="btn btn-default red" >确认</button>
+  </view>
+</form>
+<modal title="验证码错误" confirm-text="确定" hidden="{{modalHidden}}" no-cancel mask bindconfirm="modalChange" bindcancel="modalChange">
+      验证码错误，请重新输入！
+    </modal>
+</view>

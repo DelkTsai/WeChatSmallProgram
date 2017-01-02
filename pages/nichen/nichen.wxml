@@ -1,0 +1,12 @@
+<view class="container">
+<form bindsubmit="formSubmit" >
+  <view class="yzm-block">
+    <input class="yzm" name = "yzm" placeholder="令古城" />
+   
+    <image class="cancel" src="../../image/X.png" ></image>
+  </view>
+  <view>
+    <button bindtap="bindViewTap" class="btn btn-default red" form-type="submit">保存</button>
+  </view>
+</form>
+</view>

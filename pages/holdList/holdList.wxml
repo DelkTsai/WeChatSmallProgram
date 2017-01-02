@@ -1,0 +1,50 @@
+<view class="page-header">
+    <view class="hd">持仓盈亏</view>
+    <view class="add-hold">
+        +304.89
+    </view>
+    <view class="list">
+        <view class="empty list-item">
+            <view class="empty-hd">当前无持仓</view>
+            <view class="empty-con">您好，我是系统小宝，很抱歉的通知您！您当前无持仓单！</view>
+            <button type="button" class="btn btn-ok">马上去交易</button>
+        </view>
+
+        <view class="list-item">
+            <view class="sub-hd">牛腩</view>
+            <view class="sub-hold">+180.56</view>
+            <view class="hold-info">
+            <view class="flex_1">
+                <text class="buy">建仓方向：<text class="ff6350">买涨</text></text>
+                <text class="num">数量：10</text>
+                <text class="old-price">建仓价：599.36</text>
+                </view>
+                <text class="price">现价：572.33</text>
+            </view>
+            <view class="btn-block">
+                <view class="btn border-r btn-setting">设置</view>
+                <view class="btn btn-opt">平仓</view>
+            </view>
+        </view>
+
+        <view class="list-item">
+            <view class="sub-hd">牛腩</view>
+            <view class="sub-hold-minus">-280.56</view>
+            <view class="hold-info">
+            <view class="flex_1">
+                <text class="buy">建仓方向：<text class="ff6350">买涨</text></text>
+                <text class="num">数量：10</text>
+                <text class="old-price">建仓价：599.36</text>
+                </view>
+                <text class="price">现价：572.33</text>
+            </view>
+            <view class="btn-block">
+                <view class="btn border-r btn-setting">设置</view>
+                <view class="btn btn-opt">平仓</view>
+            </view>
+        </view>
+        
+
+
+    </view>
+</view>

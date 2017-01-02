@@ -1,0 +1,31 @@
+<view class="page-body">
+    <view class="item">
+        <text class="title">账号与安全</text>
+        <view class="item-r">
+        <text class="info">已保护</text>
+        <image class="arrow-r" src="../../image/arrow-r.png"></image>        
+        </view>
+    </view>
+    <view class="item">
+        <text class="title">清理缓存</text>
+        <view class="item-r">
+        <text class="info">3.4MB</text>
+        <image class="arrow-r" src="../../image/arrow-r.png"></image>        
+        </view>
+    </view>
+    <view class="item">
+        <text class="title">意见反馈</text>
+        <view class="item-r">
+        <text class="info"></text>
+        <image class="arrow-r" src="../../image/arrow-r.png"></image>        
+        </view>
+    </view>
+    <view class="item">
+        <text class="title">关于</text>
+        <view class="item-r">
+        <text class="info"></text>
+        <image class="arrow-r" src="../../image/arrow-r.png"></image>        
+        </view>
+    </view>
+</view>
+<button class="btn btn-exit" type="button">退出</button>

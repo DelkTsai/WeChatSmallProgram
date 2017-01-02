@@ -1,0 +1,44 @@
+<view class="page-header">
+    <view class="nav-box">
+        <view class="tab on">牛腩</view>
+        <view class="tab">牛腩</view>
+        <view class="tab">牛腩</view>
+    </view>
+    <view class="hd">牛腩</view>
+    <view class="total">595.33</view>
+    <view class="data-box">
+        <view class="data-item">
+            <view><text class="num">595.33</text></view>
+            <view><text class="name">昨收</text></view>
+        </view>
+        <view class="data-item">
+            <view><text class="num">596.33</text></view>
+            <view><text class="name">今开</text></view>
+        </view>
+        <view class="data-item">
+            <view><text class="num">605.33</text></view>
+            <view><text class="name">最高</text></view>
+        </view>
+        <view class="data-item">
+            <view><text class="num">525.33</text></view>
+            <view><text class="name">最低</text></view>
+        </view>
+    </view>
+<view class="trend-box">
+    <view class="nav-boxs">
+        <view class="tab on">分时</view>
+        <view class="tab">5分钟</view>
+        <view class="tab">15分钟</view>
+        <view class="tab">日K线</view>
+    </view>
+    <image class="image-k" src="../../image/k.png"></image>
+    <view class="btn-box">
+        <button class="btn rectangle-12 buy-add"><text>买涨</text><image src="../../image/icon_add.png" class="w-icon"></image></button>
+        <button class="btn rectangle-12-copy buy-minus"><text>卖跌</text><image src="../../image/icon_minus.png" class="w-icon"></image></button>
+    </view>
+    <view class="tips">
+       <text class="title">贸易时间：</text> 周一6:00至周六4:00     
+       <text class="title" style="padding-left:20rpx;">结算时间：</text> 周一4:00至周六6:00
+    </view>
+</view>
+</view>

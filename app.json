@@ -1,0 +1,51 @@
+{
+  "pages":[
+    "pages/deal/deal",
+    "pages/index/index",
+    "pages/changephone/changephone",
+    "pages/nichen/nichen",
+    "pages/baseinfo/baseinfo",
+    "pages/account/account",
+    "pages/accountDetail/accountDetail",
+    "pages/holdList/holdList",
+    "pages/fundRule/fundRule",
+    "pages/setting/setting",
+    "pages/cash/cash"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#fc412b",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/deal/deal",
+      "iconPath": "image/footer_1.png",
+      "selectedIconPath": "image/footer_1_h.png",
+      "text": "交易"
+    }, {
+      "pagePath": "pages/holdList/holdList",
+      "iconPath": "image/footer_2.png",
+      "selectedIconPath": "image/footer_2_h.png",
+      "text": "持仓"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "iconPath": "image/footer_3.png",
+      "selectedIconPath": "image/footer_3_h.png",
+      "text": "高手"
+    },
+    {
+      "pagePath": "pages/account/account",
+      "iconPath": "image/footer_4.png",
+      "selectedIconPath": "image/footer_4_h.png",
+      "text": "我的"
+    }]
+  
+}
+}

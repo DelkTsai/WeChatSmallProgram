@@ -1,0 +1,71 @@
+.container {
+  padding: 0;
+  align-items:inherit;
+} 
+.label-phone{
+    margin: 64rpx 0 0 48rpx;
+    font-size: 30rpx;
+    display: inline-block;
+    flex:1;
+    font-family: PingFangSC;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: left;
+    color: #999999;
+}
+.input-phone{
+  font-size: 28rpx;
+  font-weight: normal;
+  text-align: left;
+  color: #999999;
+  background: #fff;
+  padding-left: 48rpx;
+  margin-top: 20rpx;
+  height: 48px;
+}
+.yzm-block{
+  display: flex;
+  overflow: hidden;
+  padding: 0 24px;
+  height: 48px;
+  background: #fff;
+  margin-top: 10px;
+   align-items: center;
+    flex-direction: row;
+}
+.yzm{
+  flex: 1;
+  font-size: 14px;
+}
+.btn-send{
+  flex: 1;
+  text-overflow:clip;
+  font-size: 14px;
+  text-align: right;
+}
+.btn{
+  margin: 20px 24px;
+}
+.btn-default{
+  border-radius: 10px;
+  color: #fff;
+  height: 48px;
+  line-height: 48px;
+  font-size: 15px;
+  justify-content:center;
+  align-items:center;
+}
+.red{
+  background-color: rgba(252, 65, 43, 0.5);
+}
+/*div.wx-modal-dialog-hd{
+  font-size: 40rpx;
+}
+div.wx-modal-dialog-bd{
+  font-size: 30rpx;
+}
+div.wx-modal-btn-primary{
+  color: #fd3939!important;
+  font-size: 30rpx;
+}*/

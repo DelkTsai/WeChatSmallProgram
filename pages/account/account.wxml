@@ -1,0 +1,73 @@
+<view class="page-body">
+    <view class="page-header">
+        <view class="user-box">
+            <image class="user-avatar" src="../../image/avatar.png"></image>
+            <text class="user-name">李好帅</text>
+        </view>
+        <view class="page-hd">账户资金</view>
+        <view class="account-money">0.00</view>
+        <view class="money-style">
+            <view class="col-3">
+                <text class="title">占用资金(元)</text>
+                <text class="num">0.00</text>
+            </view>
+            <view class="col-3" bindtap="holdTap">
+                <text class="title">持仓盈亏(元)</text>
+                <text class="num">0.00</text>
+            </view>
+            <view class="col-3">
+                <text class="title">可用资金(元)</text>
+                <text class="num">0.00</text>
+            </view>   
+        </view>
+        <view class="pay-box">
+            <view class="recharge">充值</view>
+            <view class="cash" bindtap="cashTap">提现</view>
+        </view>
+    </view>
+    <view class="nav-box">
+        <view class="col-3">
+            <image src="../../image/icon_1.png"></image>
+            <text>交易明细</text>
+        </view>
+        <view class="col-3">
+            <image src="../../image/icon_2.png"></image>
+            <text>银行卡</text>
+        </view>
+        <view class="col-3">
+            <image src="../../image/icon_3.png"></image>
+            <text>资金流水</text>
+        </view>
+    </view>
+    <view class="widgets">
+        <view class="widgets-items">
+            <text class="title">经纪人</text>
+            <view class="detail">
+                <text class="con">立即申请经纪人</text>
+                <image class="arrow-r" src="../../image/arrow-r.png"></image>
+            </view>
+        </view>
+        <view class="widgets-items" bindtap="fundRule">
+            <text class="title">交易规则</text>
+            <view class="detail">
+                <text class="con"></text>
+                <image class="arrow-r" src="../../image/arrow-r.png"></image>
+            </view>
+        </view>
+        <view class="widgets-items">
+            <text class="title">公告</text>
+            <view class="detail">
+                <text class="con">关于建行系统维护的公告</text>
+                <text class="oval-6"></text>
+                <image class="arrow-r" src="../../image/arrow-r.png"></image>
+            </view>
+        </view>
+        <view class="widgets-items" bindtap="bindViewTap">
+            <text class="title">设置</text>
+            <view class="detail">
+                <image class="arrow-r" src="../../image/arrow-r.png"></image>
+            </view>
+        </view>
+     
+    </view>
+</view>

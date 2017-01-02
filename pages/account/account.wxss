@@ -1,0 +1,149 @@
+.page-body{
+
+}
+.page-header{
+    background-image: linear-gradient(to bottom, #fd412a, #ff6350);
+    /*height: 194px;*/
+}
+.user-box{
+    display: flex;
+    padding-left: 17px;
+    padding-top: 15px;
+    color: #fff;
+    align-items: center;
+    flex-direction: row;
+}
+.user-avatar{
+    width: 28px;
+    height: 28px;
+    border-radius: 28px;
+    background: #fff;
+    border: 2px solid #fff;
+}
+.user-name{
+    padding-left: 10px;
+    font-size: 14px;
+}
+.page-hd{
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    padding-top: 20px;
+}
+.account-money{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    font-family: Arial,sans-serif;
+}
+.money-style{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    align-content: space-between;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+.col-3{
+    width: 33.3%;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    border-right: 1px solid #fff;
+}
+.col-3:last-child{
+    border-right: none;
+}
+.money-style .title{
+ font-size: 14px;
+}
+.money-style .num{
+    padding-top: 10px;
+    font-size: 18px;
+}
+.pay-box{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    padding: 12px 0;
+    background: #fff;
+    font-size: 15px;
+    color: #333;
+}
+.pay-box .recharge,
+.pay-box .cash{
+    width: 50%;
+    height: 20px;
+    line-height: 20px;
+}
+.pay-box .recharge{
+    border-right: 1px solid #eee;
+}
+.nav-box{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 12px 0;
+    background: #fff;
+    margin-top: 10px;
+    align-content: space-between;
+}
+.nav-box .col-3{
+    border-right: 1px solid #eee;
+}
+.nav-box image{
+    width: 33px;
+    height: 33px;
+    border-radius: 33px;
+}
+.nav-box text{
+    font-size: 12px;
+    color: #666;
+    padding-top: 10px;
+}
+.widgets{
+    background: #fff;
+    padding-left: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.widgets-items{
+    padding: 15px 12px 15px 0;
+    display: flex;
+    line-height: 20px;
+    height: 20px;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 1px solid #eee;
+   
+}
+.widgets-items .title{
+    flex: 1;
+    font-size: 14px;
+    color: #333;
+}
+.widgets-items .detail{
+   display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: right;
+    justify-content: center;
+}
+.widgets-items .detail .con{
+    font-size: 12px;
+    color: #999;
+    display: inline-flex;
+    padding-right: 5px;
+}
+.oval-6 {
+	width: 6px;
+	height: 6px;
+    border-radius: 6px;
+	background-color: #fc412b;
+    display: inline-block;
+}

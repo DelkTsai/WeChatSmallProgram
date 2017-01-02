@@ -1,0 +1,23 @@
+<view class="item-block">
+    <view class="bank-logo">
+        <image class="img-cash" src="../../image/icon_bank.png"></image>
+        <view class="text-block">
+            <text>中国建设银行</text>
+            <text class="sub_title">尾号1234的储蓄卡</text>
+        </view>
+        
+    </view>
+    <image class="arrow-r" src="../../image/arrow-r.png"></image>
+</view>
+
+<view class="item-blocks">
+    <view class="cash-box">
+        <input type="number" class="cash-input" placeholder="7655.23" />
+        <text class="tips-cash">提现金额</text>
+    </view>
+    <view class="total-money">
+    可提金额： <text class="num">985322.75</text>元
+    </view>
+    <button type="button" class="btn btn-ok">确认提现</button>
+
+</view>
