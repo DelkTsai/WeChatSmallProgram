@@ -1,0 +1,51 @@
+<view class="page-body">
+    <view class="list-box">
+        <view class="hd">转口牛腩(澳洲)</view>
+        <view class="money">－30.56</view>
+        <view class="radio-box">
+            <image src="../../image/radio_l.png"></image>
+            <view class="radio-line"></view>
+            <image src="../../image/radio_r.png"></image>
+        </view>
+        <view class="item-box">
+            <text class="name">订单编号：</text>
+            <text class="info">201611110897</text>
+        </view>
+        <view class="item-box">
+            <text class="name">建仓方向：</text>
+            <text class="info">买涨</text>
+        </view>
+        <view class="item-box">
+            <text class="name">数量：</text>
+            <text class="info">10</text>
+        </view>
+        <view class="item-box">
+            <text class="name">日期：</text>
+            <text class="info">2016-11-11</text>
+        </view>
+        <view class="item-box">
+            <text class="name">平仓类型：</text>
+            <text class="info">结算平仓</text>
+        </view>
+        <view class="item-box">
+            <text class="name">手续费：</text>
+            <text class="info">50.00元</text>
+        </view>
+        <view class="item-box">
+            <text class="name">建仓价格：</text>
+            <text class="info">150.00元</text>
+        </view>
+        <view class="item-box">
+            <text class="name">平仓价格：</text>
+            <text class="info">150.00元</text>
+        </view>
+        <view class="item-box">
+            <text class="name">建仓金额：</text>
+            <text class="info">150.00元</text>
+        </view>
+        <view class="item-box">
+            <text class="name">平仓时间：</text>
+            <text class="info">2016-11-21</text>
+        </view>
+    </view>
+</view>

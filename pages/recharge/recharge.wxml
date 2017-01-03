@@ -1,0 +1,31 @@
+<view class="page-header">
+    <view class="hd">账号资金</view>
+    <view class="money">0.00</view>
+</view>
+<view class="input-box">
+    <view class="money-box">
+        <text>￥</text>
+        <input type="number" class="input-money" placeholder-style="color:#ccc;font-size: 40rpx;" placeholder="最低充值金额为200元" />
+    </view>
+    <text class="tips-name">充值金额</text>
+</view>
+
+<view class="select-money">
+    <text class="hd">选择充值金额</text>
+    <view class="recharge-box">
+        <view class="item-recharge">500元</view>
+        <view class="item-recharge on">1000元</view>
+        <view class="item-recharge">2000元</view>
+     </view>
+     <view class="recharge-box">   
+        <view class="item-recharge">5000元</view>
+        <view class="item-recharge">10000元</view>
+        <view class="item-recharge">20000元</view>
+    </view>
+</view>
+
+<view class="btn-block">
+    <button class="btn btn-wx">微信支付</button>
+    <button class="btn btn-zfb">支付宝支付</button>
+    <button class="btn btn-card">银联支付</button>
+</view>

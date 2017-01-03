@@ -1,0 +1,58 @@
+.page-body{
+    background: #1bd059;
+    padding: 40rpx 24rpx;
+}
+.list-box{
+    border-radius: 10rpx;
+    background: #fff;
+}
+.list-box .hd{
+    color: #666;
+    font-size: 24rpx;
+    padding-top: 40rpx;
+    display: flex;
+    justify-content: center;
+}
+.list-box .money{
+    color: #1bd059;
+    font-size: 60rpx;
+    display: flex;
+    justify-content: center;
+    padding-top: 20rpx;
+}
+.radio-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.radio-box image{
+    width: 16rpx;
+    height: 31rpx;
+    display: inline-flex;
+}
+.radio-box .radio-line{
+    flex: 1;
+    height: 1rpx;
+    border-bottom: 1rpx dashed #eee;
+}
+.item-box{
+    height: 100rpx;
+    line-height: 100rpx;
+    align-items: center;
+    padding:0 24rpx;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-bottom: 1rpx dashed #eee;
+}
+.item-box:last-child{
+    border-bottom: none;
+}
+.item-box .name{
+    color: #999;
+    font-size: 26rpx;
+}
+.item-box .info{
+    color: #666;
+    font-size: 26rpx;
+}

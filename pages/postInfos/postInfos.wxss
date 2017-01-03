@@ -1,0 +1,30 @@
+/* pages/postInfos/postInfos.wxss */
+.page-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card_a image,
+.card_b image,
+.card_hand image{
+    width: 540rpx;
+    height: 300rpx;
+    border-radius: 10rpx;
+    background: #d8d8d8;
+    margin-top: 30rpx;
+}
+.tips{
+    color: #bbbbbb;
+    font-size: 24rpx;
+    padding: 50rpx 0;
+}
+.btn-next{
+    background: #fc412b;
+    border: none;
+    border-radius: 0;
+    line-height: 100rpx;
+    width: 100%;
+    color: #fff;
+    font-size: 30rpx;
+}

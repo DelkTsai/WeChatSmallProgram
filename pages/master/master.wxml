@@ -1,0 +1,66 @@
+<view class="page-body">
+    <view class="page-header">
+        <view class="tab ps1" bindtap="myOrder">
+            <image src="../../image/order_my.png"></image>
+            <text>我的跟单</text>
+        </view>
+        <view class="tab ps2">
+            <image src="../../image/order_warning.png"></image>
+            <text>跟单提醒</text>
+        </view>
+        <view class="tab ps3">
+            <image src="../../image/order_rule.png"></image>
+            <text>跟单规则</text>
+        </view>
+    </view>     
+    <view class="list">
+        <view class="item-box">
+            <view class="item">
+                <view class="avatar">
+                    <image  class="avatar-box" src="../../image/order_avatar.png"></image>
+                    <text>王二麻子</text>
+                </view>
+                <button bindtap="modalTap" class="btn btn-order">立即跟单</button>
+            </view>
+            <view class="order_info">
+                <text>昨日收益<text class="cx">17800</text>元</text>
+                <text>跟单人数 2000</text>
+                <text>账户资金 50000元</text>
+            </view>
+        </view>
+
+        <view class="item-box">
+            <view class="item">
+                <view class="avatar">
+                    <image  class="avatar-box" src="../../image/order_avatar.png"></image>
+                    <text>王二麻子</text>
+                </view>
+                <button bindtap="modalTap" class="btn btn-order">立即跟单</button>
+            </view>
+            <view class="order_info">
+                <text>昨日收益<text class="cx">17800</text>元</text>
+                <text>跟单人数 2000</text>
+                <text>账户资金 50000元</text>
+            </view>
+        </view>
+
+        <view class="item-box">
+            <view class="item">
+                <view class="avatar">
+                    <image  class="avatar-box" src="../../image/order_avatar.png"></image>
+                    <text>王二麻子</text>
+                </view>
+                <button bindtap="modalTap" class="btn btn-order">立即跟单</button>
+            </view>
+            <view class="order_info">
+                <text>昨日收益<text class="cx">17800</text>元</text>
+                <text>跟单人数 2000</text>
+                <text>账户资金 50000元</text>
+            </view>
+        </view>
+    </view>
+</view>
+
+<modal title="跟高手一起战斗" confirm-text="立即充值" hidden="{{modalHidden}}" no-cancel mask bindconfirm="modalChange" bindcancel="modalChange">
+        请准备好弹药！账户资金少于50000元，请充值！
+    </modal>

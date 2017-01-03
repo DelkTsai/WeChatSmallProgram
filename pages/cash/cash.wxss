@@ -45,11 +45,16 @@
     flex-direction: column;
     padding-top: 40rpx;
 }
+.money-box{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
 .cash-input{
     color: #4a4a4a;
     font-size: 40rpx;
-    display: flex;
     line-height: 40rpx;
+    flex: 1;
 }
 .tips-cash{
     color: #666;

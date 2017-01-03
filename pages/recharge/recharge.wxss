@@ -1,0 +1,98 @@
+/* pages/recharge/recharge.wxss */
+.page-header{
+    background-image: linear-gradient(to bottom, #fd412a, #ff6350);
+    height: 200rpx;
+}
+.page-header .hd{
+    font-size: 26rpx;
+    color: #fff;
+    opacity: .8;
+    text-align: center;
+    padding-top: 50rpx;
+}
+.money{
+    font-size: 72rpx;
+    color: #fff;
+    padding-top: 20rpx;
+    text-align: center;
+}
+.money-box{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.input-box{
+    border-bottom: 1rpx #e0e0e0 solid;
+    padding: 30rpx 0 30rpx 24rpx;
+    display: flex;
+    flex-direction: column;
+}
+.input-box .input-money{
+    color: #4a4a4a;
+    font-size: 40rpx;
+    flex: 1;
+}
+.tips-name{
+    display: flex;
+    color: #4a4a4a;
+    font-size: 24rpx;
+    padding-top: 20rpx;
+}
+.select-money{
+    background: #fff;
+}
+.select-money .hd{
+    color: #666;
+    font-size: 24rpx;
+    padding-top: 20rpx;
+    padding-left: 24rpx;
+    display: flex;
+}
+.recharge-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 24rpx;
+}
+.item-recharge{
+    margin-right: 24rpx;
+    height: 80rpx;
+    border: 1rpx solid #fc412b;
+    color: #fc412b;
+    flex: 1;
+    margin-top: 24rpx;
+    text-align: center;
+    line-height: 80rpx;
+    border-radius:10rpx;
+}
+.item-recharge.on{
+    background: #fc412b;
+    color: #fff;
+}
+.btn-block{
+    margin: 40rpx 24rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    width: 100%;
+    text-align: center;
+    margin:0 0 20rpx 0;
+    border-radius: 10rpx;
+    color: #fff;
+    line-height: 100rpx;
+    font-size: 30rpx;
+}
+.btn-wx{
+    background: #1bd059;
+}
+.btn-zfb{
+    background: #327df1;
+}
+.btn-card{
+    background: #fff;
+    color: #fc412b;
+}

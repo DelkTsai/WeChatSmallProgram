@@ -1,0 +1,75 @@
+/* pages/notice/notice.wxss */
+.page-box{
+    margin-top: 20rpx;
+    background: #fff;
+    padding-left: 24rpx;
+    padding-bottom: 20rpx;
+}
+.item{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    z-index: 2;
+    margin-left: 0;
+    overflow: hidden;
+}
+.del-box{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 3;
+    width: 276rpx;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.move,
+.btn-read{
+    width: 138rpx;
+    background: #fc412b;
+    color: #fff;
+    height: 156rpx;
+    font-size: 28rpx;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-read{
+    background: #f0f0f0;
+    color: #999;
+}
+.read{
+    width: 98rpx;
+    height: 98rpx;
+}
+.notice-info{
+    flex: 1;
+    padding:40rpx 20rpx 40rpx 0;
+    margin-left: 20rpx;
+    border-bottom: 1rpx solid #ddd;
+    display: flex;
+    flex-direction: column;
+}
+.notices{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.notices .hd{
+    color: #333;
+    font-size: 28rpx;
+    flex: 1
+}
+.notices .date{
+    font-size: 24rpx;
+    color: #999;
+}
+.notice-info .detail{
+    font-size: 24rpx;
+    color: #999;
+    padding-top: 10rpx;
+}

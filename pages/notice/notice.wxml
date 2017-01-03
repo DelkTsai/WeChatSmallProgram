@@ -1,0 +1,18 @@
+<view class="page-box">
+<block wx:for-items="{{notices}}" wx:for-item="notice">
+    <view class="item" bindtouchstart="drawerStart" bindtouchmove="drawerMove">
+        <image class="read" src="{{notice.img}}"></image>
+        <view class="notice-info">
+            <view class="notices">
+                <text class="hd">{{notice.name}}</text>
+                <text class="date">{{notice.date}}</text>
+            </view>
+            <view class="detail">{{notice.detail}}</view>
+        </view>
+        <view class="del-box" style="display:none;">
+        <view class="btn-read">已读</view>
+        <view class="move">删除</view>
+        </view>
+    </view>
+</block>
+</view>

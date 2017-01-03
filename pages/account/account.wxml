@@ -1,6 +1,6 @@
 <view class="page-body">
     <view class="page-header">
-        <view class="user-box">
+        <view class="user-box" bindtap="cardTap">
             <image class="user-avatar" src="../../image/avatar.png"></image>
             <text class="user-name">李好帅</text>
         </view>
@@ -21,12 +21,12 @@
             </view>   
         </view>
         <view class="pay-box">
-            <view class="recharge">充值</view>
+            <view class="recharge" bindtap="rechargeTap">充值</view>
             <view class="cash" bindtap="cashTap">提现</view>
         </view>
     </view>
     <view class="nav-box">
-        <view class="col-3">
+        <view class="col-3" bindtap="dealDetail">
             <image src="../../image/icon_1.png"></image>
             <text>交易明细</text>
         </view>
@@ -54,7 +54,7 @@
                 <image class="arrow-r" src="../../image/arrow-r.png"></image>
             </view>
         </view>
-        <view class="widgets-items">
+        <view class="widgets-items" bindtap ="notice">
             <text class="title">公告</text>
             <view class="detail">
                 <text class="con">关于建行系统维护的公告</text>

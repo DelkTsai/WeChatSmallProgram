@@ -1,0 +1,86 @@
+<view class="page-header">
+    <view class="hd">今日盈亏</view>
+    <view class="money">-2330.44</view>
+    <view class="deal-tags">
+        <view class="tag">
+            <text class="name">今日单数</text>
+            <text>320</text>
+        </view>
+        <view class="tag">
+            <text class="name">今日单数</text>
+            <text>32</text>
+        </view>
+    </view>
+</view>
+<view class="list">
+    <view class="list-item"  bindtap="dealDetail">
+        <view class="order-hd" >
+            <text class="name">买涨</text>
+            <text class="num">+105.00</text>
+        </view>
+        <view class="date">2016-11-21 0:59:09</view>
+    </view>
+    <view class="list-item"  bindtap="dealDetail">
+        <view class="order-hd" >
+            <text class="name">买跌</text>
+            <text class="nums">-105.00</text>
+        </view>
+        <view class="date">2016-11-21 0:59:09</view>
+    </view>
+    <view class="list-item">
+        <view class="order-hd">
+            <text class="name">买涨</text>
+            <text class="num">+105.00</text>
+        </view>
+        <view class="date">2016-11-21 0:59:09</view>
+    </view>
+    <view class="list-item">
+        <view class="order-hd">
+            <text class="name">买跌</text>
+            <text class="nums">-105.00</text>
+        </view>
+        <view class="date">2016-11-21 0:59:09</view>
+    </view>
+    <view class="list-item">
+        <view class="order-hd">
+            <text class="name">买涨</text>
+            <text class="num">+105.00</text>
+        </view>
+        <view class="date">2016-11-21 0:59:09</view>
+    </view>
+    <view class="list-item">
+        <view class="order-hd">
+            <text class="name">买跌</text>
+            <text class="nums">-105.00</text>
+        </view>
+        <view class="date">2016-11-21 0:59:09</view>
+    </view>
+    <view class="list-item">
+        <view class="order-hd">
+            <text class="name">买涨</text>
+            <text class="num">+105.00</text>
+        </view>
+        <view class="date">2016-11-21 0:59:09</view>
+    </view>
+    <view class="list-item">
+        <view class="order-hd">
+            <text class="name">买跌</text>
+            <text class="nums">-105.00</text>
+        </view>
+        <view class="date">2016-11-21 0:59:09</view>
+    </view>
+    <view class="list-item">
+        <view class="order-hd">
+            <text class="name">买涨</text>
+            <text class="num">+105.00</text>
+        </view>
+        <view class="date">2016-11-21 0:59:09</view>
+    </view>
+    <view class="list-item">
+        <view class="order-hd">
+            <text class="name">买跌</text>
+            <text class="nums">-105.00</text>
+        </view>
+        <view class="date">2016-11-21 0:59:09</view>
+    </view>
+</view>

@@ -1,7 +1,6 @@
 {
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "交易",
+    "navigationBarTitleText": "交易明细",
     "navigationBarTextStyle":"black"
-    
-}
+  }

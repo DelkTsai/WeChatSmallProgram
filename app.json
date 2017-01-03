@@ -10,7 +10,14 @@
     "pages/holdList/holdList",
     "pages/fundRule/fundRule",
     "pages/setting/setting",
-    "pages/cash/cash"
+    "pages/cash/cash",
+    "pages/recharge/recharge",
+    "pages/postInfos/postInfos",
+    "pages/master/master",
+    "pages/myOrder/myOrder",
+    "pages/dealList/dealList",
+    "pages/dealDetail/dealDetail",
+    "pages/notice/notice"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -35,7 +42,7 @@
       "text": "持仓"
     },
     {
-      "pagePath": "pages/index/index",
+      "pagePath": "pages/master/master",
       "iconPath": "image/footer_3.png",
       "selectedIconPath": "image/footer_3_h.png",
       "text": "高手"

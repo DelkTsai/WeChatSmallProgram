@@ -12,7 +12,10 @@
 
 <view class="item-blocks">
     <view class="cash-box">
+     <view class="money-box">
+        <text>￥</text>
         <input type="number" class="cash-input" placeholder="7655.23" />
+        </view>
         <text class="tips-cash">提现金额</text>
     </view>
     <view class="total-money">
